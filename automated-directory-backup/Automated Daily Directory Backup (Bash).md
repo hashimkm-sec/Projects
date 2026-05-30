@@ -26,27 +26,27 @@ This project demonstrates core system administration practices, ensuring data in
 Before running the script, ensure it has the correct execution permissions:
 ```bash
 chmod +x backup.sh
-
+```
 ### 2. Manual Execution
 Run the script by providing the target directory (what you want to back up) and the destination directory (where you want the backup to go):
 ```bash
 ./backup.sh <target_directory> <destination_directory>
-
+```
 ### 3. Automating with Cron
 To set this script to run automatically every 24 hours at midnight, add it to your system's crontab.
 
 First, move the script to a system binary folder:
 ```bash
 sudo cp backup.sh /usr/local/bin/
-
+```
 Open your crontab editor:
 ```bash
 crontab -e
-
+```
 Add the following line to the bottom of the file:
 ```text
 0 0 * * * /usr/local/bin/backup.sh /home/user/important-documents /home/user/backups
-
+```
 Save and exit. The system will now automatically run the backup sequence daily.
 
 ## Project Origin
