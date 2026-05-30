@@ -1,7 +1,7 @@
 # Automated Daily Directory Backup (Bash)
 
 ## Overview
-This repository contains a robust Bash script (`backup.sh`) designed to automate the archiving of recently modified files. The script scans a specified target directory for any files updated within the last 24 hours, compresses them into a timestamped `.tar.gz` archive, and securely moves the backup to a designated destination directory. 
+This repository contains a robust Bash script [backup.sh](./backup.sh) designed to automate the archiving of recently modified files. The script scans a specified target directory for any files updated within the last 24 hours, compresses them into a timestamped `.tar.gz` archive, and securely moves the backup to a designated destination directory. 
 
 This project demonstrates core system administration practices, ensuring data integrity and availability through automated, scheduled backups.
 
