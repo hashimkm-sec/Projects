@@ -20,7 +20,7 @@ Demonstrate role-based access control (RBAC) in Azure by creating a test user, a
 - Portal home logged in as TestUser1
   ![Portal Home](Assets/TestUser.png)
 - Error message for Reader role
-  [Reader Error](Assets/readererror.png)
+  ![Reader Error](Assets/readererror.png)
 - Successful VM creation for Contributor role
   ![Contributor Success](Assets/contributor-success.png)
 
