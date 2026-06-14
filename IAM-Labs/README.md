@@ -12,7 +12,7 @@ Demonstrate role-based access control (RBAC) in Azure by creating a test user, a
 
 ## 📸 Screenshots
 - New user creation form
-  ![New User](Assets/new-user.png)
+  ![New User](Assets/NewUserCreated.png)
 - Role assignment blade
   ![Role Assignment](Assets/RoleAssign.png)
   ![Role Assignment](Assets/RoleAssign2.png)
