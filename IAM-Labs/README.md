@@ -11,10 +11,14 @@ Demonstrate role-based access control (RBAC) in Azure by creating a test user, a
 5. Changed role to **Contributor** → logged in again → successfully created VM.
 
 ## 📸 Screenshots
-- Portal home logged in as TestUser1 (./Assets/TestUser.png)
 - New user creation form
+  ![New User](Assets/new-user.png)
 - Role assignment blade
+  ![Role Assignment](Assets/RoleAssign.png)
+- Portal home logged in as TestUser1
+  ![Portal Home](Assets/TestUser.png)
 - Error message for Reader role
+  [Reader Error](Assets/reader-error.png)
 - Successful VM creation for Contributor role
 
 ## 📚 Lessons Learned
