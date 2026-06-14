@@ -15,11 +15,14 @@ Demonstrate role-based access control (RBAC) in Azure by creating a test user, a
   ![New User](Assets/new-user.png)
 - Role assignment blade
   ![Role Assignment](Assets/RoleAssign.png)
+  ![Role Assignment](Assets/RoleAssign2.png)
+  
 - Portal home logged in as TestUser1
   ![Portal Home](Assets/TestUser.png)
 - Error message for Reader role
   [Reader Error](Assets/reader-error.png)
 - Successful VM creation for Contributor role
+  ![Contributor Success](Assets/contributor-success.png)
 
 ## 📚 Lessons Learned
 - Always use **UPN (username@tenant.onmicrosoft.com)** for login, not display name.
