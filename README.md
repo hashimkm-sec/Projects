@@ -1,32 +1,72 @@
-# Linux, IT & Security Projects
+<div align="center">
 
-A growing portfolio of hands-on labs and scripts created while learning Linux, cloud identity, and security monitoring. Each project includes its own notes or instructions so the work can be followed and reviewed.
+# 🚀 My Technical Projects
 
-## Projects
+### Linux · IT Infrastructure · Security
 
-### [AuthWatch — SSH Log Triage](./authwatch/)
+*A hands-on learning portfolio — built one project at a time.*
 
-A Bash learning project that reads a sample or Linux authentication log and summarizes SSH login failures, invalid-user attempts, and accepted logins. It can flag source IPs that meet a configurable failed-attempt threshold.
+[![Bash](https://img.shields.io/badge/Bash-Scripting-293137?style=for-the-badge&logo=gnubash&logoColor=white)](./)
+[![Linux](https://img.shields.io/badge/Linux-Administration-FCC624?style=for-the-badge&logo=linux&logoColor=111111)](./)
+[![Azure](https://img.shields.io/badge/Azure-Identity%20%26%20RBAC-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](./)
 
-**Practices:** Bash input validation and quoting, `awk` text processing, Linux authentication logs, and basic SOC L1 triage.
+</div>
 
-Includes a synthetic log fixture and a test script. AuthWatch is for learning; it is not a production SIEM or proof of compromise.
+---
 
-### [Automated Directory Backup](./automated-directory-backup/)
+## 🧭 Explore the portfolio
 
-A course project that creates a timestamped compressed archive of files modified in the previous 24 hours. The accompanying project notes explain how it can be scheduled with cron.
+| Project | What you’ll find | Focus |
+|:--|:--|:--|
+| 🛡️ **[AuthWatch](./authwatch/)** | A Bash tool for summarizing SSH authentication log events | Linux logs · Bash · SOC L1 fundamentals |
+| 📦 **[Automated Directory Backup](./automated-directory-backup/)** | A course project that archives recently modified files | Bash · `tar` · Scheduling concepts |
+| 🔐 **[Identity & RBAC Lab](./IAM-Labs/)** | An Azure lab exploring roles and resource permissions | Azure · IAM · RBAC |
 
-**Practices:** Bash arguments, file timestamps, `tar`/gzip, and basic scheduling concepts.
+---
 
-The script is an instructional project and has not been presented as a production backup solution.
+## 🛡️ AuthWatch
+### SSH Log Triage
 
-### [Identity & RBAC Lab (Azure)](./IAM-Labs/)
+Reads a sample or Linux authentication log and summarizes failed SSH passwords, invalid-user attempts, and accepted logins. A configurable threshold highlights IP addresses with repeated failed attempts.
 
-A lab exploring Azure role-based access control by assigning roles and observing how permissions affect resource actions.
+**Includes:** Bash script · synthetic log fixture · test script · setup guide
 
-**Practices:** Identity and access management, least privilege concepts, and Azure role permissions.
+[**Explore AuthWatch →**](./authwatch/)
 
-## About this portfolio
+> A learning and triage aid—not a production SIEM or proof of compromise.
 
-These projects reflect a learning journey. Some began as guided course exercises; the goal is to understand the steps, improve the scripts, and document what each project does and where it falls short. Project-specific setup and usage instructions are in each folder.
+---
 
+## 📦 Automated Directory Backup
+### Bash Course Project
+
+Creates a timestamped compressed archive of files modified in the previous 24 hours. The project notes also explain how the script could be scheduled with cron.
+
+**Practices:** Bash arguments · file timestamps · `tar` and gzip · scheduling concepts
+
+[**Explore the backup project →**](./automated-directory-backup/)
+
+> An instructional project, not a production backup solution.
+
+---
+
+## 🔐 Identity & RBAC Lab
+### Azure Access Control
+
+A hands-on lab exploring how Azure role assignments affect a user’s ability to work with cloud resources.
+
+**Practices:** Identity and access management · role permissions · least-privilege concepts
+
+[**Explore the IAM lab →**](./IAM-Labs/)
+
+---
+
+## 🌱 The learning journey
+
+These projects document practical learning in Linux, IT infrastructure, and security. Some began as guided course exercises. I’m continuing to understand each step, improve my work, and build on these foundations.
+
+<div align="center">
+
+**Thanks for stopping by ✨**
+
+</div>
